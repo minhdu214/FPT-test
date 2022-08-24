@@ -23,5 +23,3 @@ Mobile.swipe(200, 2000, 200, 100)
 
 Mobile.closeApplication()
 
-WebUI.acceptAlert()
-
