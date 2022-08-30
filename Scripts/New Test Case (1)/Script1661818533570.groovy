@@ -19,7 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\linh.nguyen\\Katalon Studio\\Test mobile\\androidapp\\APIDemos.apk', true)
 
-Mobile.swipe(2159, 100, 200, 100)
+Mobile.swipe(0, 4559, 2159, 100)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 2'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 5 (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 1 (1)'), 0)
+
+Mobile.tap(findTestObject(''), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 0 (1)'), 0)
+
+Mobile.tap(findTestObject(''), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.ImageButton (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - OK (3)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Preference'), 0)
+
+Mobile.tap(findTestObject('Object Repository/android.widget.TextView - 4. Default values'), 0)
 
 Mobile.closeApplication()
 
